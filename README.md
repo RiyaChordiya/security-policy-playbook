@@ -17,9 +17,9 @@ This project demonstrates my ability to create and manage foundational cybersecu
 
 | Policy | Description |
 |--------|-------------|
-| [`acceptable-use-policy.md`](./policies/acceptable-use-policy.md) | Defines responsible use of company systems |
-| [`data-classification-policy.md`](./policies/data-classification-policy.md) | Classifies and protects sensitive data |
-| [`remote-access-policy.md`](./policies/remote-access-policy.md) | Secures remote access via VPN, MFA, and device hygiene |
+| [`acceptable-use-policy.md`](acceptable-use-policy.md) | Defines responsible use of company systems |
+| [`data-classification-policy.md`](data-classification-policy.md) | Classifies and protects sensitive data |
+| [`remote-access-policy.md`](remote-access-policy.md) | Secures remote access via VPN, MFA, and device hygiene |
 
 ---
 
@@ -27,10 +27,10 @@ This project demonstrates my ability to create and manage foundational cybersecu
 
 | Playbook | Scenario |
 |----------|----------|
-| [`phishing-incident.md`](./playbooks/phishing-incident.md) | Detect and respond to social engineering email attacks |
-| [`ransomware-incident.md`](./playbooks/ransomware-incident.md) | Contain and recover from data encryption/extortion |
-| [`insider-threat.md`](./playbooks/insider-threat.md) | Investigate and mitigate misuse of internal access |
-| [`cloud-misconfig.md`](./playbooks/cloud-misconfig.md) | Respond to public exposure due to misconfigured cloud services |
+| [`phishing-incident.md`](phishing-incident.md) | Detect and respond to social engineering email attacks |
+| [`ransomware-incident.md`](ransomware-incident.md) | Contain and recover from data encryption/extortion |
+| [`insider-threat.md`](insider-threat.md) | Investigate and mitigate misuse of internal access |
+| [`cloud-misconfig.md`](cloud-misconfig.md) | Respond to public exposure due to misconfigured cloud services |
 
 ---
 
@@ -42,14 +42,6 @@ View four short scenarios in [`incident-scenarios.md`](./incident-scenarios.md),
 - A ransomware infection traced to a malicious Excel file  
 - A developer abusing access after resignation  
 - A misconfigured S3 bucket exposing internal reports
-
----
-
-### IR Process Flowchart
-
-This diagram shows the generic response lifecycle followed in each playbook:
-
-![Incident Response Process](./assets/incident_response_flow.png)
 
 ---
 
